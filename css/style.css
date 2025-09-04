@@ -1,0 +1,19 @@
+* {
+    font-size: large;
+    text-align: center;
+    margin: 0 auto;
+}
+body{
+    background-color: rgb(255, 252, 248);
+    height: 100vh;
+}
+header{
+    display: flex;
+    background-color: black;
+    height: 10%;
+    align-items: center;
+}
+#logo {
+    height: 70%;
+    width: auto;
+}
