@@ -265,17 +265,14 @@ a {
     /* display: flex; */
     margin: 75px;
     padding: 5px 15px 5px 15px;
-    /* width: 150px; */
-    /* height: 50px; */
-    background-color: lightblue;
     border-radius: 25%;
     justify-content: center;
     align-items: center;
     border: 1.5px solid black; 
     font-size: 20px;
-    /* border: 5px solid #F4D35E; */
     background-color: #F4D35E;
     border-radius: 15px;
+    color: #0D3B66;
 }
 
 footer {
@@ -301,6 +298,8 @@ footer {
     border: 5px solid #F4D35E;
     background-color: #F4D35E;
     border-radius: 15px;
+    color: #0D3B66;
+    padding: 5px 15px 5px 15px;
 
 }
 #projects-bg {
