@@ -11,27 +11,112 @@
 <body>
     <header>
         <img id="sda-logo" src="./assets/SDA-logo.png" alt="SDA logo">
-        <nav id="about-me">
-            <a href="">Home</a>
-            <a href="">Projects</a>
-            <a href="">Contact Me</a>
+        <nav id="header">
+            <a href="./index.html">Home</a>
+            <a href="./projects.html">Projects</a>
+            <a href="./assets/khalid-resume.pdf" target="_blank">Resume</a>
         </nav>
         <nav>
             <a href="https://github.com/Duwaysan" target="_blank">
                 <img class="nav-logo" src="./assets/github-logo.png" alt="github">
             </a>
-            <a href="https://www.linkedin.com/in/kduwaysan/">
+            <a href="https://www.linkedin.com/in/kduwaysan/" target="black">
                 <img class="nav-logo" src="./assets/linkedin-logo.png" alt="linkedin">
             </a>
         </nav>
     </header>
     <section id="main">
-        <h1>Welcome</h1>
+        <!-- <h1>Welcome</h1> -->
         <div id="portfolio-container">
             <img src="./assets/pfp.png" alt="profile">
             <div id="description-container">
-                <h2>Khalid Alduwaysan</h2>
-                <div>dnqepifnqeofbunwoi;dmqdoindkmfk;aisdnqdajslhfuljabnudoaslcnueroefk;mfpiandk;wfpi</div>
+                <h2>Khalid Alduwaysan 😎</h2>
+                <div>I am Khalid Alduwaysan, a Computer Science graduate passionate about Artificial Intelligence, Data
+                    Science, and Full-Stack Development. My experience spans building AI-driven solutions—from
+                    developing OCR correction systems with LLMs at King Salman Global Academy, to designing deep
+                    learning models for computer vision and NLP during my bootcamps.</div>
+            </div>
+        </div>
+    </section>
+    <section id="experiences-container">
+        <div class="experience-card">
+            <div class="experience-header">
+                <!-- <div class="experience-header"></div> -->
+                <span class="circle"></span>
+                <img id="experience-logos" src="./assets/SDA-logo.png" alt="sda-logo">
+                <h3 class="experience-title">Saudi Digital Academy  
+                    <br>
+                    <span class="position">Software Engineering Bootcamp</span>
+                    <br>
+                    <span class="dates">Aug 2025 - Present</span>
+                </h3> 
+                  
+            </div>
+            <div class="experience-description">
+                <ul class="custom-bullets">
+                      <li>
+                        Developed full-stack web apps with Python, Django, React, and PostgreSQL.
+                    </li>
+  <li>
+    Built interactive front-ends and integrated APIs with efficient database management.
+
+  </li>
+                </ul>
+            </div>
+        </div>
+        <div class="experience-card">
+            <div class="experience-header">
+                <!-- <div class="experience-header"></div> -->
+                <span class="circle"></span>
+                <img id="experience-logos" src="./assets/ksgafal.png" alt="king-salman-global-academy-for-arabic-language">
+                <h3 class="experience-title">King Salman Global Academy for Arabic Language 
+                                        <br>
+                    <span class="position">AI Developer</span>
+                    <br>
+                    <span class="dates">Jan 2025 - June 2025</span>
+                </h3>
+            </div>
+            <div class="experience-description">
+                <ul class="custom-bullets">
+                    <li>
+                         Developed Raqim – a hybrid Arabic OCR correction system integrating Tesseract OCR, dictionary-based corpus filtering, and LLMs.
+                    </li>
+                    <li>
+                         Evaluated Gemini Flash 2.0, GPT-4, Mistral, and LLaMA for OCR post-processing; integrated the top model to maximize accuracy.
+                    </li>
+                    <li>
+                        Generated synthetic training data using a txt2img pipeline to augment datasets and improve recognition across diverse fonts and layouts.
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="experience-card">
+            <div class="experience-header">
+                <!-- <div class="experience-header"></div> -->
+                <span class="circle"></span>
+                <img id="experience-logos" src="./assets/SDAIA.png" alt="sdaia-logo">
+                <h3 class="experience-title">SDAIA
+                                        <br>
+                    <span class="position">AI & Data Science T5 Bootcamp</span>
+                    <br>
+                    <span class="dates">july 2024 - Oct 2024</span>
+                </h3>
+            </div>
+            <div class="experience-description">
+                <ul class="custom-bullets">
+                    <li>
+    Built and optimized ML/DL models (ANN, CNN, LSTM, YOLO) for classification, object detection, 
+    and forecasting.
+  </li>
+                    <li>
+    Applied NLP techniques (CBOW, Arabic text classification) and built a RAG system with LangChain 
+    for contextual Q&amp;A.
+  </li>
+  <li>
+    Conducted EDA, clustering, and dimensionality reduction on large datasets to extract insights 
+    and improve model performance.
+  </li>
+                </ul>
             </div>
         </div>
     </section>
@@ -40,22 +125,40 @@
             Projects
         </h2>
         <div id="projects-container">
-            <div class="project">
-
-                <img id="rasyd" src="./assets/rasyd.png" alt="Rasyd-project">
+            <a class="project-card" href="https://github.com/Duwaysan/Detect-Violated-Motorbikes-Delivery-RASYD"
+                target="_blank">
+                <img class="project-img" src="./assets/rasyd.png" alt="Rasyd-project">
                 <div class="project-description">
                     <h3>RASYD</h3>
-                    <div>Motorbik Violation Detection</div>
+                    <div>Violations detector</div>
+                    <div class="private">public</div>
+
+                </div>
+            </a>
+            <div class="project-card">
+                <img class="project-img" src="./assets/raqim-project.png" alt="Rasyd-project">
+                <div class="project-description">
+                    <h3>Raqim</h3>
+                    <div>Arabic document OCR</div>
+                    <div class="private">private</div>
                 </div>
             </div>
-            <div class="project">Hiiii</div>
-            <div class="project">Byyeee</div>
+            <div class="project-card">
+                <img class="project-img" id="Household-img" src="./assets/household-price-tracker.png"
+                    alt="household-price-tracker-project">
+                <div class="project-description">
+                    <h3>Household Price Tracker</h3>
+                    <div>Your shopping friend :)</div>
+                    <div class="public">in-progress</div>
+                </div>
+            </div>
         </div>
 
+        <a id="nav-projects" href="./projects.html">Explore More!</a>
 
     </section>
     <footer>
-        Hello
+        &copy; 2025 Khalid Alduwaysan. All rights reserved.
     </footer>
 </body>
 
